@@ -34,8 +34,8 @@ if(count($livros)>=1){
             ?>
             <td>
                 <a class="Visualizar link2" href=""><img src="<?php echo base_url('assets/images/Visualizar.png');?>" alt="Excluir" height="30" width="30" title="Visualizar"/></a>
-                <a class="Alterar link"     href=""><img src="<?php echo base_url('assets/images/Alterar.png');?>" alt="Editar" height="30" width="30" title="Alterar"/></a>
-                <a class="Deletar" href="<?php echo site_url('livro/formAlterarLivro/1');?>"><img src="<?php echo base_url('assets/images/Deletar.png');?>" alt="Excluir" height="30" width="30" title="Deletar"/></a>           
+               <a class="Alterar link"     href="<?php echo site_url('livro/formAlterarLivro/'.$d->id);?>"><img src="<?php echo base_url('assets/images/Alterar.png');?>" alt="Editar" height="30" width="30" title="Alterar"/></a>
+                <a class="Deletar" href="<?php echo site_url('livro/deletarLivro/'.$d->id);?>"><img src="<?php echo base_url('assets/images/Deletar.png');?>" alt="Excluir" height="30" width="30" title="Deletar"/></a>                     
             </td>
         <tr>
         
