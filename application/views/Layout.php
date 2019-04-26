@@ -34,7 +34,6 @@
                 <ul class="menuInferior">
                         <li><a id="menuPesquisar" class=""  href="<?php echo site_url('livro/formPesquisarLivro');?>" title="Pesquisar">Pesquisar</a></li>
                         <li><a id="menuCadastrar" class=""  href="<?php echo site_url('livro/formCadastrarLivro');?>" title="Cadastrar">Cadastrar</a></li>
-                        <li><a id="menuAlterar" class=""  href="<?php echo site_url('livro/formAlterarLivro/1');?>" title="Cadastrar">Alterar</a></li>
                 </ul>
             </form>
             </div>
